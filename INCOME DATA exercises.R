@@ -19,7 +19,7 @@ income.data %>% ggplot(aes(x=income, y=happiness)) + geom_point()
 #scatterplot comparing income data and happiness, grouped by education
 income.data %>% ggplot(aes(x=income, y=happiness, color=education)) + geom_point()
 
-
+#
 
 #comparing income across gender
 ggplot(data = income.data, aes(x=income, fill=gender)) + geom_histogram()
